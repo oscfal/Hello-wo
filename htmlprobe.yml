@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" class>
+<body class style= "padding-rigth: 0px;">
+  <header>...</header>
+<div class="showcase sweet">
+    <img src="/images/SweetAlert2.png" height="30" alt="SweetAlert2">
+    <button class="show-example-btn" aria-label="Show SweetAlert2 success message" onclick="executeExample('sweetAlert')">
+      Show success message
+    </button>
+    <pre data-example-id="sweetAlert" class="code-sample"><code class="lang-javascript hljs">Swal.fire(<br>  <span class="hljs-string">'Good job!'</span>,<br>  <span class="hljs-string">'You clicked the button!'</span>,<br>  <span class="hljs-string">'success'</span><br>)</code></pre>
+</div>
+
+.show-example-btn {
+    padding: .9em 2.1875em;
+    border: 0;
+    border-radius: .1875em;
+    background-color: #3085d6;
+    box-shadow: none;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    }
+</body>
+</html>
+
+
